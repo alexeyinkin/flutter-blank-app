@@ -1,0 +1,7 @@
+include: package:total_lints/app.yaml
+
+#analyzer:
+#  exclude:
+#    - lib/firebase_options.dart
+#    - lib/firebase_options.dev.dart
+#    - lib/firebase_options.prod.dart

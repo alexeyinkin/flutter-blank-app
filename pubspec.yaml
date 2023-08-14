@@ -1,0 +1,26 @@
+name: blank
+
+environment:
+  sdk: ^3.0.0
+  flutter: '>=3.10.0'
+
+dependencies:
+  app_state: ^0.9.4
+  easy_localization: ^3.0.2
+#  easy_localization_ext: ^0.1.1
+  easy_localization_loader: { git: { url: https://github.com/aissat/easy_localization_loader.git, ref: efca2087b52198c7fbd6a59488d149a4b1ec939c} }
+  enum_map: ^0.3.0
+  keyed_collection_widgets: ^0.4.3
+  google_fonts: ^5.1.0
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  enum_map_gen: ^0.3.0
+  total_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/en.yaml
